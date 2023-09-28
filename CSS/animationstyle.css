@@ -1,0 +1,13 @@
+div {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+    animation-name: colorchange;
+    animation-duration: 10s;
+    animation-delay: 3s;
+
+}
+@-o-keyframes colorchange {
+    form {background-color: blue;}
+    to {background-color: yellowgreen;}
+}
