@@ -1,0 +1,27 @@
+body {
+    background-color: ;
+
+}
+div {
+    font-size: x-large;
+    text-align: center;
+
+}
+div::after {
+    content: "Welcome to the demo"
+}
+@media(min-width: 900px) {
+    /* if view is atleast 900px then this */
+}
+.box{
+    height: 350px;
+    width: 350px;
+    border: 2px solid black;
+    margin: 2px;
+}
+.box1{
+    background-color: red;
+}
+.box3{
+    background-color: yellow;
+}
