@@ -1,0 +1,100 @@
+*{
+    margin: 2;
+    padding: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+body {
+    background-image: url(./assets/pexels-maxyne-barcel.png);
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+   display: flex;
+   height: 100vh;
+   width: 100wh;
+   flex-direction: column;
+   justify-content: space-between;
+   padding: 20px 20px 0 20px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+/* header.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+} */
+button{
+    padding: 8px 28px;
+   background-color: rgb(246, 75, 75);
+   border-radius: 5px;
+   color: white;
+   border: 1px solid rgb(246, 75, 75);
+   font-weight: 500;
+   font-size: 16px;
+}
+button:hover {
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+}
+header ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 200px;
+}
+header ul li {
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 2px;
+    color: rgb(254, 187, 29);
+}
+header ul li a:hover{
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: underline;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap:5px ;
+    position: relative;
+    top: 50px;
+}
+main h1{
+    color: rgb(254, 187, 29);
+    font-size: 80px;
+}
+main .button{
+    height: 38px;
+    /* top: 15px; */
+    position: relative;
+}
+main .button{
+    /* padding: 14px 40px; */
+    font-weight: 550;
+    font-size: 20px;
+
+}
+footer{
+    text-align: end;
+}
+footer img {
+    width: 150px;
+}
